@@ -1,4 +1,4 @@
-import { galleryItems } from './gallery-items.js';
+import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
 const galleryContainer = document.querySelector(".gallery");
@@ -10,6 +10,7 @@ function createGalleryCardsMarkup(galleryItems) {
   return galleryItems
     .map(({ preview, original, description }) => {
       return `
+      
         <a class="gallery__item" href="${original}">
           <img
             class="gallery__image"
